@@ -1,0 +1,47 @@
+Script started on 2024-12-04 21:12:14-08:00 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="136" LINES="36"]
+]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ cat test
+[?2004lAAAAAAAAAAABBBBBBBBBBCCCCCCCCCCDDDDDDDDDDEEEEEEEEEE12345123451234512345123451234512345123451234512345HELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZ01010101010101010101010101010101010101010101010101AABBCCAABBCCAABBCCAABBCCAABBCCAABBCCAABBCCAABBCCABABABABABABABABABABABABABABABABABABABABABABABABABREDREDREDREDREDREDREDREDREDREDREDREDREDREDREDREDFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOBARBARBARBARBARBARBARBARBARBARBARBARBARBARBARBARPATTERNS!PATTERNS!PATTERNS!PATTERNS!PATTERNS!PATTERNS!REPEATREPEATREPEATREPEATREPEATREPEATREPEATREPEATZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ cat test2.txt
+[?2004lIn the beginning, when all things were formless and void, there existed an infinite expanse of nothingness. This void, devoid of light, sound, or matter, was the canvas upon which existence would be painted.From this void sprang forth chaos: swirling eddies of energy that defied understanding. Patterns emerged, fractured and fleeting, only to dissolve back into disorder. Yet amidst the chaos, there arose a spark ]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ java Compress test
+[?2004lWould you like to run the program again?[y]
+y
+Enter the name of the file
+java      test2.txt
+Would you like to run the program again?[y]
+n
+]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ cat test.log
+[?2004lCompression of test
+Compressed from 2.764 Kilobytes to 0.973 Kilobytes
+Compression took 0.009 seconds
+The dictionary contains 496 total entries
+The table was rehashed 0 times
+]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ cat test2.txt.log
+[?2004lCompression of test2.txt
+Compressed from 1.664 Kilobytes to 1.119 Kilobytes
+Compression took 0.004 seconds
+The dictionary contains 532 total entries
+The table was rehashed 0 times
+]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ java Decompress test.zzz
+[?2004lWould you like to run the program again?[y]
+n
+]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ java Decompress
+[?2004lEnter the name of the file
+test.2.txt.zzz
+File Not Found
+Enter the name of the file
+test.2  2.txt.zzz
+Would you like to run the program again?[y]
+n
+]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ cat test.[K[K[K[K[K[K[K[Kat test.zzz.log
+[?2004lDecompression of test.zzz
+Decompression took 0.011 seconds
+The table was doubled 0 times
+]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ cat test2.txt.zzz.log
+[?2004lDecompression of test2.txt.zzz
+Decompression took 0.011 seconds
+The table was doubled 0 times
+]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ cat test
+[?2004lAAAAAAAAAAABBBBBBBBBBCCCCCCCCCCDDDDDDDDDDEEEEEEEEEE12345123451234512345123451234512345123451234512345HELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWWOWXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZ01010101010101010101010101010101010101010101010101AABBCCAABBCCAABBCCAABBCCAABBCCAABBCCAABBCCAABBCCABABABABABABABABABABABABABABABABABABABABABABABABABREDREDREDREDREDREDREDREDREDREDREDREDREDREDREDREDFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOFOOBARBARBARBARBARBARBARBARBARBARBARBARBARBARBARBARPATTERNS!PATTERNS!PATTERNS!PATTERNS!PATTERNS!PATTERNS!REPEATREPEATREPEATREPEATREPEATREPEATREPEATREPEATZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ cat test2.tz[Kxt
+[?2004lIn the beginning, when all things were formless and void, there existed an infinite expanse of nothingness. This void, devoid of light, sound, or matter, was the canvas upon which existence would be painted.From this void sprang forth chaos: swirling eddies of energy that defied understanding. Patterns emerged, fractured and fleeting, only to dissolve back into disorder. Yet amidst the chaos, there arose a spark ]0;anthony@archlinux:~/School/COMP230/Projects/Proj5/Proj5[?2004h[anthony@archlinux Proj5]$ exit
+[?2004lexit
+
+Script done on 2024-12-04 21:14:14-08:00 [COMMAND_EXIT_CODE="0"]
